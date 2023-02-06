@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Starter File</title>
+  </head>
+
+  <body>
+    <header>
+        <h1 style="text-align: center;">HTML Document Tutorial</h1>
+    </header>
+    <main>
+      <section>
+        <h1 style="text-align: center">About me</h1>
+        <h2 style="text-align: center">Hello, my name is Abiola Fasanya</h2>
+        <details>
+          Hello, my name is abiola fasanya and I am a fullstack developer, I can
+          create lovely and functional applications, If this sounds interesting
+          then lets go
+        </details>
+        <menu>
+          <li>
+            <button>Save for later</button>
+          </li>
+          <li><button>share the news</button></li>
+        </menu>
+      </section>
+      <section>
+        <menu>
+          <li>
+            <button onclick="copy()">Copy</button>
+            <button onclick="cut()">Cut</button>
+            <button onclick="paste()">Paste</button>
+          </li>
+        </menu>
+      </section>
+      <section>
+        <label for="file">File Progress</label>
+        <progress id="file" max="100" value="70">70%</progress>
+      </section>
+      <section>
+        <div aria-busy="true" aria-describedby="pogress-bar"></div>
+        <progress id="progress-bar" aria-label="Content loading..."></progress>
+      </section>
+      <section>
+        <label for="ice-cream-choice" style="display: block;">Choose a flavor</label>
+        <input type="text" list="ice-cream-flavours" name="ice-cream-choice" id="">
+        <datalist id="ice-cream-flavours">
+            <option value="chocolate"></option>
+            <option value="coconut"></option>
+            <option value="mint"></option>
+                <option value="strawberry"></option>
+                    <option value="vanilla"></option>
+        </datalist>
+      </section>
+      <section>
+        <label for="tick">Tip amount</label>
+        <input type="range" list="tickmarks" min="0" max="100" id="tick" name="tick" />
+        <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="50"></option>
+            <option value="80"></option>
+            <option value="100"></option>
+        </datalist>
+      </section>
+
+      <section>
+        <canvas width="100" height="100" draggable="true" dropzone="copy">
+        A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba.
+        </canvas>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script>
+        const canvas = document.querySelector('canvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'green'
+        ctx.fillText('Hello, world!',);
+        ctx.textAlign = "center"
+        ctx.textBaseline = "middle"
+        ctx.font = "48px serif";
+        ctx.fillRect(10,20,100,100)
+        ctx.measureText('hello world')
+    </script>
+  </body>
+</html>

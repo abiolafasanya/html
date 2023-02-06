@@ -1,0 +1,31 @@
+Article		- Represents an independent piece of content of a document, such as a blog entry or newspaper article
+Aside		- Represents a piece of content that is only slightly related to the rest of the page
+Audio		- Defines an audio file
+Canvas		- This is used for rendering dynamic bitmap graphics on the fly, such as graphs or games
+Command		- Represents a command the user can invoke
+Datalist	- Together with a new list attribute for input can be used to make comboboxes
+Details		- Represents additional interactive content or plugin
+Figure		- Represents a piece of self contained flow content, typically referenced as a single unit from the main flow		       of the document   
+Video		- Define a video file
+Wbr			- Represents a line break opportunity
+Section		- Represents a generic document or application section
+Output		- Represents some type of output, such as from a calculation done through script
+Progress	- Represents a completion of a task, such as downloading or when performing a series of expensive operations
+Meter		- Represents a run of text in one document marked or highlighted for reference purpose, due to its relevance 		       in another context
+Header		-
+
+
+			New Types for <input> tag
+
+time			- Time indicator and selector, with no time zone information
+url				- Input type should be URL type
+week			- Selector for a week within a given year
+color			- Color selector, which could be represented by a wheel or swatch picker
+date			- Selector for calendar date
+datetime-local	- Full date and time display, including a time zone
+email			- Input type should be an email
+month			- Selector for a month within a given year
+number			- A field containing a numeric value only
+range			- Numeric selector with a range of value, typically visualized as a slider
+tel
+
